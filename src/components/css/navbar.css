@@ -1,0 +1,13 @@
+.header {
+  background-color: #0c131f;
+}
+
+.insideNav ul li:hover {
+  color: #8de8fe;
+  height: 100%;
+}
+
+.borderHover {
+  height: 2px;
+  background-color: #8de8fe;
+}
