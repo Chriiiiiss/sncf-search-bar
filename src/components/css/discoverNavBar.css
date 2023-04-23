@@ -5,3 +5,9 @@
 .discoverWrapper li:hover {
   color: #006179;
 }
+
+@media (max-width: 620px) {
+  .discoverWrapper {
+    display: none !important;
+  }
+}
