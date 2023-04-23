@@ -23,8 +23,39 @@ function App() {
         <h1 className="text-2xl font-bold pb-6">
           Explorez l'univers SNCF Connect
         </h1>
-        <div className="cardWrapper flex gap-x-6">
-          <Card />
+        <div className="cardWrapper flex gap-6 flex-wrap">
+          <Card
+            imgUrl="https://www.sncf-connect.com/assets/styles/image_scale_height_400/public/media/2023-03/bp_jeunespx.jpg?itok=iP1cDgW_"
+            title={"Activez le mode dernière minute"}
+            description={
+              "A vos billets, prêts, feu, partez ! Il est encore temps de réserver vos billets pour partir ce printemps !"
+            }
+            ctaLabel={"Foncer"}
+          />
+          <Card
+            imgUrl="https://www.sncf-connect.com/assets/styles/image_scale_height_400/public/media/2023-04/bp_300x300.jpg?itok=FQ8Lq8iI"
+            title={"Vos billets pour l'été sont toujours disponibles !"}
+            description={
+              "On voit,on voit...qu''il est temps d'organiser vos vacances d'été ! Réservez dès maintenant vos billets de train aux meilleurs prix !"
+            }
+            ctaLabel={"Foncer"}
+          />
+          <Card
+            imgUrl="https://www.sncf-connect.com/assets/styles/image_scale_height_400/public/media/2023-04/bp_cartes.jpg?itok=iVoEKOnh"
+            title={"Utilisez les cartes budget mobilité"}
+            description={
+              "Payez vos trajets, mais pas de votre poche ! Utilisez les cartes ALD Move, Betterway, RoadMate, Swile ou Worklife pour régler vos déplacements domicile-travail."
+            }
+            ctaLabel={"S'informer"}
+          />
+          <Card
+            imgUrl="https://www.sncf-connect.com/assets/styles/image_scale_height_400/public/media/2023-04/bp.jpg?itok=xtYSf-j1"
+            title={"Emmenez-le partout avec vous"}
+            description={
+              "Dès 7€, voyagez avec votre animal de compagnie et profitez ensemble lors de vos prochaines escapades"
+            }
+            ctaLabel={"En savoir plus"}
+          />
         </div>
       </section>
     </>
