@@ -1,6 +1,7 @@
+import "@css/searchBar.css";
 function SearchBar() {
   return (
-    <div className="w-1/2">
+    <div className="searchBar w-1/2">
       <label className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">
         Search
       </label>
