@@ -59,3 +59,9 @@ body {
   background-color: #f3f3f8;
   color: #0c131f;
 }
+
+@media (max-width: 1024px) {
+  .cardWrapper {
+    justify-content: center;
+  }
+}
